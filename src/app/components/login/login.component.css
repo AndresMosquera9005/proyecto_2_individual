@@ -4,6 +4,7 @@
 	--color-botton-text:#000;
 	--color-body:#1D1D1D;
 	--color-negro:#000;
+	--color-borde:#AA38A5;
 }
 
 /* ESTILOS PARA EL LOGIN */
@@ -17,14 +18,16 @@
 	background-color: var(--color-body);
 }
 
-.container{
+.conta{
 	padding-bottom: 10px;
 	display: flex;
-	margin-top: 10%;
-	margin-left: 40%;
-	margin-right: 30%;
-	border: 1px solid var(--color-negro);
 	background-color: transparent;
+}
+
+#borde-login{
+	border: 2px solid var(--color-borde);
+	padding: 2px;
+	padding:30px;
 }
 
 .class_login {
@@ -32,7 +35,7 @@
 }
 
 .form_margin{
-	padding-bottom: 5%;
+	padding-bottom: 2%;
 }
 
 p{
@@ -46,8 +49,10 @@ p{
 	padding: 10px;
 	background-color: var(color-botton-fondo);
 	color:var(--color-botton-text);
-	margin-right: 70px;
-	/* border: none;	 */
+}
+
+.separacion-btn{
+	margin-left: 58px;
 }
 
 input {
