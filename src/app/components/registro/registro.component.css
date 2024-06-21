@@ -1,0 +1,16 @@
+/* REGISTRO */
+
+#div-margin {
+	border: 2px solid var(--color-borde);
+	padding: 2px;
+	padding:30px;
+}
+
+.separacion-input { 
+	padding: 3px;
+}
+
+#btn-ingresar {
+	background-color: var(--color-botton-fondo);
+	color: var(--color-botton-text);
+}
